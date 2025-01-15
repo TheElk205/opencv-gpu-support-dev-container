@@ -1,0 +1,14 @@
+{
+    "image": "theelk205/open-cv-gpu-dev-container:latest",
+    "forwardPorts": [3000],
+    "customizations": {
+      // Configure properties specific to VS Code.
+      "vscode": {
+        
+      }
+    },
+    "runArgs": [
+        "--gpus",
+        "all"
+    ]
+  }

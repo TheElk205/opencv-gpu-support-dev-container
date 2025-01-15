@@ -1,0 +1,1 @@
+docker build -t theelk205/open-cv-gpu-dev-container:latest .
